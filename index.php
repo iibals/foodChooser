@@ -1,3 +1,14 @@
+<script>
+    let pass;
+    let realpass = 123;
+    do{
+        pass = Number(prompt("Enter Password:"));
+    }while(pass !== realpass)
+    
+    alert("ولكم يامعلم");
+        
+</script>
+
 <?php 
 $host = 'localhost';
 $username = 'root';
