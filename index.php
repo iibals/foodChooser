@@ -1,6 +1,6 @@
 <script>
     let pass;
-    let realpass = 123;
+    let realpass = "ANY_PASS";
     do{
         pass = Number(prompt("Enter Password:"));
     }while(pass !== realpass)
